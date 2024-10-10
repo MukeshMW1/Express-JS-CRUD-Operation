@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <style>
+        body{
+            text-align: center;
+        }
+      input{
+        border-radius: 10px;
+        width:100px;
+        height:15px;
+        outline:none;
+      }
+      button{
+        border-radius: 10px;
+      }
+      form{
+        margin: 20px;
+      }
+      label{
+        margin: 20px;
+
+      }
+      input{
+        margin:20px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Posts</h1>
+    <form action="" id="add-post-form">
+        <label for="'title">Title: </label><br>
+        <input type="text" id="title" name="title" placeholder="Enter the title"><br>
+        <button type="submit">submit</button>
+    </form>
+    <br>
+    <div id="output"></div>
+    
+    <button id="get-posts-btn">Show Posts</button>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
